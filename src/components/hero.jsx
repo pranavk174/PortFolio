@@ -45,10 +45,10 @@ export default function Hero() {
         <div className="w-full lg:w-1/2 ">
           <motion.div initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
-              transition={{ duration: 0.5, delay: 0 }} className="flex lg:mt-[4rem]  lg:w-[620px]  md:h-[650px] lg:h-[650px] rounded-full overflow-hidden  lg:bottom-[4rem] md:justify-center md:items-center">
+              transition={{ duration: 0.5, delay: 0 }} className="flex lg:mt-[4rem]  lg:w-[620px] h-[400px]  lg:h-[650px] rounded-full overflow-hidden  lg:bottom-[4rem] md:justify-center md:items-center">
             <motion.img
               
-              className="img   h-[37rem]  lg:w-[580px]  lg:h-[790px] scale-150   rounded-full    overflow:hidden"
+              className="img pt-[2.5rem] pl-[2rem] h-[20rem]  lg:w-[580px]  lg:h-[790px] scale-150   rounded-full    overflow:hidden"
               src={pic}
               alt="image"
             />

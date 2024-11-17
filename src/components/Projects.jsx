@@ -32,7 +32,7 @@ export default function Projects() {
      transition={{ duration: 0.4 , delay:0.4}} className="w-[35rem] max-w-xl lg:w-3/4" >
                      <h2 className="mt-3 mb-2 font-semibold ">{project.title}</h2>
                      <p className='mb-4 text-wrap text-[1.2rem] text-neutral-400 font-light tracking-tighter' > {project.description} </p>
-                      <div className='space-x-[2rem]'>
+                      <div className='space-x-2'>
                       {
                         project.technologies.map((tech , index)=>
                                 <motion.span  whileInView={{ x: 100, opacity: 1 }}

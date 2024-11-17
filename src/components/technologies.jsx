@@ -71,9 +71,9 @@ export default function Technologies() {
       <motion.h1  whileInView={{ y: 0, opacity: 1 }}
       initial={{ y: -100, opacity: 0 }}
      transition={{ duration: 0.4 , delay:0.4}} className="my-20 text-center text-4xl">Technologies & Skills</motion.h1>
-      <motion.div variants={container} initial="hidden" whileInView="visible"  className="grid sm:grid-cols-3 sm:pl-[2rem]     lg:grid-cols-6  lg:w-[70vw]   sm:w-[100%]   justify-center items-center sm:gap-y-[.9rem]  gap-x-[2rem]   gap-y-[.9rem]  lg:gap-y-[2rem]">
+      <motion.div variants={container} initial="hidden" whileInView="visible"  className=" flex flex-wrap lg:grid  sm:pl-[2rem]     lg:grid-cols-6  lg:w-[70vw]   sm:w-[100%]   justify-center items-center sm:gap-y-[.9rem]  gap-x-[2rem]   gap-y-[.9rem]  lg:gap-y-[2rem]">
       
-      <motion.div variants={iconVariants(2.5)} initial="initial" animate="animate" className="rounded-2xl    justify-center flex  w-[6.4rem] items-center   border-neutral-800 m-4 ">
+      <motion.div variants={iconVariants(2.5)} initial="initial" animate="animate" className="rounded-2xl    justify-center flex  w-[6.4rem] items-center   border-neutral-800 p-4 ">
             <FaPython  className="text-6xl text-blue-400  hover:rotate-6 "/>
              </motion.div>
       <motion.div variants={iconVariants(2.9)} initial="initial" animate="animate" className="rounded-2xl flex  w-[6.4rem] items-center  justify-center   border-neutral-800 p-4 ">
