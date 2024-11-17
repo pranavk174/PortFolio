@@ -21,7 +21,7 @@ export default function Projects() {
         <div className="      ">
         {
             PROJECTS.map((project,index)=>(
-                 <div key={index}  className='flex flex-wrap  gap-y-[2rem] sm:pb-5 border-gray-600 sm:border-b-2 lg:gap-[10rem] mb-8 items-center justify-center' >
+                 <div key={index}  className='flex flex-wrap  gap-y-[2rem] sm:pb-5 border-gray-600 sm:border-b-2 lg:border-0 lg:gap-[10rem] mb-8 items-center justify-center' >
                     <motion.div variants={container(0.4 )}
               whileInView="visible"
               initial="hidden"  className='w-full  flex justify-center lg:w-1/4  overflow-hidden'>
