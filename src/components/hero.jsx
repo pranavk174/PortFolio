@@ -1,6 +1,6 @@
 import React from "react";
 import { HERO_CONTENT } from "../assets/index";
-import pic from "../assets/pranav.jpg";
+import pic from "../assets/pic.jpeg";
 import { motion } from "framer-motion";
 
 export default function Hero() {
@@ -45,10 +45,10 @@ export default function Hero() {
         <div className="w-full lg:w-1/2 ">
           <motion.div initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
-              transition={{ duration: 0.5, delay: 0 }} className="flex lg:mt-[4rem] bg-white lg:w-[38vw] h-[46vh] lg:h-[70vh] rounded-full overflow-hidden lg:relative lg:bottom-[4rem] md:justify-center">
+              transition={{ duration: 0.5, delay: 0 }} className="flex lg:mt-[4rem]  lg:w-[620px]  md:h-[650px] lg:h-[650px] rounded-full overflow-hidden  lg:bottom-[4rem] md:justify-center md:items-center">
             <motion.img
               
-              className="  img h-[37rem] max-w-[55rem] lg:h-[96vh]  lg:w-[71vw] rounded-full lg:mt-8   overflow:hidden"
+              className="img   h-[37rem]  lg:w-[580px]  lg:h-[790px] scale-150   rounded-full    overflow:hidden"
               src={pic}
               alt="image"
             />

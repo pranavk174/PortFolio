@@ -67,59 +67,59 @@ export default function Technologies() {
 
 
   return (
-    <div className="border-b flex flex-col justify-center items-center border-neutral-800 pb-24">
+    <div className="border-b flex flex-col justify-center items-center border-neutral-800  pb-24">
       <motion.h1  whileInView={{ y: 0, opacity: 1 }}
       initial={{ y: -100, opacity: 0 }}
      transition={{ duration: 0.4 , delay:0.4}} className="my-20 text-center text-4xl">Technologies & Skills</motion.h1>
-      <motion.div variants={container} initial="hidden" whileInView="visible"  className="grid grid-cols-3  lg:grid-cols-6  lg:w-[70vw]   sm:w-[90vw]  lg:justify-center lg:items-center  gap-y-[.5rem] lg:gap-y-[2rem]">
+      <motion.div variants={container} initial="hidden" whileInView="visible"  className="grid sm:grid-cols-3 sm:pl-[2rem]     lg:grid-cols-6  lg:w-[70vw]   sm:w-[100%]   justify-center items-center sm:gap-y-[.9rem]  gap-x-[2rem]   gap-y-[.9rem]  lg:gap-y-[2rem]">
       
-      <motion.div variants={iconVariants(2.5)} initial="initial" animate="animate" className="rounded-2xl justify-center w-[6.4rem]  border-4 border-neutral-800 p-4 ">
+      <motion.div variants={iconVariants(2.5)} initial="initial" animate="animate" className="rounded-2xl    justify-center flex  w-[6.4rem] items-center   border-neutral-800 m-4 ">
             <FaPython  className="text-6xl text-blue-400  hover:rotate-6 "/>
              </motion.div>
-      <motion.div variants={iconVariants(2.9)} initial="initial" animate="animate" className="rounded-2xl w-[6.4rem]  justify-center  border-4 border-neutral-800 p-4 ">
+      <motion.div variants={iconVariants(2.9)} initial="initial" animate="animate" className="rounded-2xl flex  w-[6.4rem] items-center  justify-center   border-neutral-800 p-4 ">
             <FaJava  className="text-6xl text-red-500 hover:rotate-6"/>
            
              </motion.div>
-      <motion.div variants={iconVariants(2.8)} initial="initial" animate="animate" className="rounded-2xl w-[6.4rem]  justify-center  border-4 border-neutral-800 p-4 ">
+      <motion.div variants={iconVariants(2.8)} initial="initial" animate="animate" className="rounded-2xl flex  w-[6.4rem] items-center  justify-center   border-neutral-800 p-4 ">
             <FaHtml5  className="text-6xl text-red-400 hover:rotate-6"/>
            
              </motion.div>
-        <motion.div variants={iconVariants(2)} initial="initial" animate="animate" className="rounded-2xl w-[6.4rem] justify-center  border-4 border-neutral-800 p-4 ">
+        <motion.div variants={iconVariants(2)} initial="initial" animate="animate" className="rounded-2xl flex  w-[6.4rem] items-center justify-center   border-neutral-800 p-4 ">
             <SiCss3 className="text-6xl text-green-400 hover:rotate-6"/>
             
         </motion.div>
-        <motion.div variants={iconVariants(2.7)} initial="initial" animate="animate" className="rounded-2xl w-[6.4rem] justify-center  border-4 border-neutral-800 p-4 ">
+        <motion.div variants={iconVariants(2.7)} initial="initial" animate="animate" className="rounded-2xl flex  w-[6.4rem] items-center justify-center   border-neutral-800 p-4 ">
             <DiJavascript className="text-6xl text-yellow-400 hover:rotate-6"/>
            
         </motion.div>
        
-        <motion.div variants={iconVariants(1.5)} initial="initial" animate="animate" className="rounded-2xl w-[6.4rem] justify-center  border-4 border-neutral-800 p-4 ">
+        <motion.div variants={iconVariants(1.5)} initial="initial" animate="animate" className="rounded-2xl flex  w-[6.4rem] items-center justify-center   border-neutral-800 p-4 ">
             <RiTailwindCssFill className="text-6xl text-cyan-400 hover:rotate-6"/>
          
         </motion.div>
-        <motion.div variants={iconVariants(2.9)} initial="initial" animate="animate" className="rounded-2xl w-[6.4rem] justify-center  border-4 border-neutral-800 p-4 ">
+        <motion.div variants={iconVariants(2.9)} initial="initial" animate="animate" className="rounded-2xl flex  w-[6.4rem] items-center justify-center   border-neutral-800 p-4 ">
             <FaBootstrap className="text-6xl text-purple-700 hover:rotate-6"/>
          
         </motion.div>
 
 
        
-        <motion.div variants={iconVariants(2)} initial="initial" animate="animate" className="rounded-2xl w-[6.4rem] justify-center  border-4 border-neutral-800 p-4 ">
+        <motion.div variants={iconVariants(2)} initial="initial" animate="animate" className="rounded-2xl flex  w-[6.4rem] items-center justify-center   border-neutral-800 p-4 ">
             <RiReactjsLine className="text-6xl text-cyan-400 hover:rotate-6"/>
        
         </motion.div>
-        <motion.div variants={iconVariants(2.8)} initial="initial" animate="animate" className="rounded-2xl w-[6.4rem] justify-center  border-4 border-neutral-800 p-4 ">
+        <motion.div variants={iconVariants(2.8)} initial="initial" animate="animate" className="rounded-2xl flex  w-[6.4rem] items-center justify-center   border-neutral-800 p-4 ">
             <FaNodeJs className="text-6xl text-blue-400 hover:rotate-6"/>
             
         </motion.div>
-        <motion.div variants={iconVariants(1.7)} initial="initial" animate="animate" className="rounded-2xl w-[6.4rem] justify-center  border-4 border-neutral-800 p-4 ">
+        <motion.div variants={iconVariants(1.7)} initial="initial" animate="animate" className="rounded-2xl flex  w-[6.4rem] items-center justify-center   border-neutral-800 p-4 ">
             <SiExpress className="text-6xl text-cyan-400 hover:rotate-6"/> 
         </motion.div>
-        <motion.div variants={iconVariants(2.4)} initial="initial" animate="animate" className="rounded-2xl w-[6.4rem] justify-center  border-4 border-neutral-800 p-4 ">
+        <motion.div variants={iconVariants(2.4)} initial="initial" animate="animate" className="rounded-2xl flex  w-[6.4rem] items-center justify-center   border-neutral-800 p-4 ">
             <TbSql className="text-6xl text-blue-600 hover:rotate-6"/>
             
         </motion.div>
-        <motion.div variants={iconVariants(2.9)} initial="initial" animate="animate" className="rounded-2xl w-[6.4rem] justify-center  border-4 border-neutral-800 p-4 ">
+        <motion.div variants={iconVariants(2.9)} initial="initial" animate="animate" className="rounded-2xl flex  w-[6.4rem] items-center justify-center   border-neutral-800 p-4 ">
             <SiMongodb className="text-6xl text-green-400 hover:rotate-6"/>
             
         </motion.div>

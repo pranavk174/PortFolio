@@ -11,7 +11,17 @@
 }
 
 .img {
-  
- scale:2;
+  scale: 1; /* Default scaling */
+}
 
+@media (max-width: 768px) {
+  .img {
+    scale: 1.2; /* Slightly smaller for medium screens (tablets) */
+  }
+}
+
+@media (max-width: 500px) {
+  .img {
+    scale: 3; /* Reset to normal size for small screens (phones) */
+  }
 }
